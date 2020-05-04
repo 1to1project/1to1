@@ -1,12 +1,9 @@
-*{
-    box-sizing: border-box;
-}
 body{
     background-color: #FFFFFF;
     font-family: Arial;
   	font-size: 16px;
   	line-height: 1.6em;
-      margin: 0;
+  	margin: 0;
 }
 /* grey #747474 */
 div.header{
@@ -32,7 +29,7 @@ div.header{
 .container{
 	width: 80%;
 	margin:auto;
-    overflow:hidden;
+	overflow:hidden;
 }
 
 #main-header{
@@ -102,13 +99,6 @@ div.content2{
     flex-direction: row;
     justify-content: center;
     flex-wrap: nowrap;
-}
-
-div.content2{
-    width: 50%;
-    clear: right;
-    padding-left: 5px;
-    float: right;
 }
 
 .footer_base{
